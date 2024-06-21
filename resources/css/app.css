@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: Montserrat;
+}
+
+@media screen and (max-width:830px) {
+    #hero .image img {
+        top: 400px;
+        left: 50px;
+        position: absolute;
+    }
+
+    #hero .box {
+        left: 550px;
+    }
+
+    #hero .text h1 {
+        left: 900px;
+    }
+
+    #sell .form-sell {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    ul li {
+        width: 200px !important;
+    }
+
+    ul li label {
+        font-size: .9rem;
+    }
+
+    ul li input {
+        width: 200px !important;
+    }
+
+    ul li button {
+        width: 60px;
+        height: 35px;
+        font-size: .5em;
+    }
+
+    a {
+        font-size: .8rem;
+    }
+
+    .alert {
+        font-size: .8rem;
+    }
+
+    .hero .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero .text h3 {
+        font-size: .8rem;
+    }
+    
+    .cards .card {
+        height: 210px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .cards .card h1 {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    ul li {
+        width: 100px !important;
+    }
+
+    ul li label {
+        font-size: .8rem;
+    }
+
+    ul li input {
+        width: 100px !important;
+    }
+
+    ul li button {
+        width: 50px;
+        height: 25px;
+        font-size: .3em;
+    }
+
+    a {
+        font-size: .5rem;
+    }
+
+    .alert {
+        font-size: .5rem;
+    }
+
+    .cards .card {
+        height: 120px;
+    }
+
+    .cards .card h1 {
+        font-size: .5rem;
+    }
+}
